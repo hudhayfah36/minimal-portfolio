@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page01 {
+  width: 100%;
+  height: 100vh;
+  background-color: #eeeeee;
+}
+
+.heading h1 span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.heading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+
+.page01 .heading {
+  padding: 100px;
+
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.para {
+  text-align: center;
+  max-width: 350px;
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+
+.insideimg {
+  margin: 0 auto;
+  display: block;
+  width: 50px;
+}
+
+.page02 {
+  background-color: #373a40;
+  width: 100%;
+  height: 100vh;
+}
+.page02 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  color: #eeeeee;
+  padding: 50px;
+  padding-bottom: 0px;
+
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.proj {
+  color: #eeeeee;
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.proj p {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.proj ul li {
+  padding-top: 10px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.page03 {
+  width: 100%;
+  height: 100vh;
+}
+
+.image-scroll-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.image-scroll-container img {
+  width: 50px;
+}
+
+.justtocenter {
+  display: flex;
+  justify-content: center;
+}
+.contact-form {
+  margin: 50px;
+  margin-top: 250px;
+  font-family: "Montserrat", sans-serif;
+  color: #373a40;
+  width: 500px;
+}
+
+.contact-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label {
+  margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #373a40;
+  color: #eeeeee;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
